@@ -1,0 +1,613 @@
+{
+  "method": "Mean binary front/top/three-quarter Jaccard IoU at common 4.5 m orthographic framing",
+  "prop_count": 105,
+  "pair_count": 5460,
+  "same_role_pair_count": 105,
+  "same_role_pairs_above_0_60": 0,
+  "all_pairs_above_0_60": 113,
+  "front_top_pairs_above_0_60": 130,
+  "worst_same_role": [
+    {
+      "first": "greenhouse_seed_cabinet",
+      "second": "observatory_lens_cabinet",
+      "same_role": true,
+      "front_iou": 0.5941,
+      "top_iou": 0.5047,
+      "three_quarter_iou": 0.6816,
+      "front_top_mean_iou": 0.5494,
+      "mean_iou": 0.5935
+    },
+    {
+      "first": "greenhouse_seed_cabinet",
+      "second": "library_bookcase",
+      "same_role": true,
+      "front_iou": 0.5318,
+      "top_iou": 0.5484,
+      "three_quarter_iou": 0.6279,
+      "front_top_mean_iou": 0.5401,
+      "mean_iou": 0.5694
+    },
+    {
+      "first": "post_mail_slots",
+      "second": "observatory_lens_cabinet",
+      "same_role": true,
+      "front_iou": 0.5735,
+      "top_iou": 0.5455,
+      "three_quarter_iou": 0.5547,
+      "front_top_mean_iou": 0.5595,
+      "mean_iou": 0.5579
+    },
+    {
+      "first": "clinic_medicine_cabinet",
+      "second": "library_bookcase",
+      "same_role": true,
+      "front_iou": 0.4309,
+      "top_iou": 0.725,
+      "three_quarter_iou": 0.4573,
+      "front_top_mean_iou": 0.5779,
+      "mean_iou": 0.5377
+    },
+    {
+      "first": "greenhouse_seed_cabinet",
+      "second": "clinic_medicine_cabinet",
+      "same_role": true,
+      "front_iou": 0.5262,
+      "top_iou": 0.5125,
+      "three_quarter_iou": 0.5671,
+      "front_top_mean_iou": 0.5193,
+      "mean_iou": 0.5353
+    },
+    {
+      "first": "garage_tire_rack",
+      "second": "art_brush_rack",
+      "same_role": true,
+      "front_iou": 0.5353,
+      "top_iou": 0.4502,
+      "three_quarter_iou": 0.6012,
+      "front_top_mean_iou": 0.4928,
+      "mean_iou": 0.5289
+    },
+    {
+      "first": "post_mail_slots",
+      "second": "clinic_medicine_cabinet",
+      "same_role": true,
+      "front_iou": 0.4874,
+      "top_iou": 0.5445,
+      "three_quarter_iou": 0.5545,
+      "front_top_mean_iou": 0.5159,
+      "mean_iou": 0.5288
+    },
+    {
+      "first": "clinic_first_aid_cart",
+      "second": "library_book_return_cart",
+      "same_role": true,
+      "front_iou": 0.4375,
+      "top_iou": 0.4242,
+      "three_quarter_iou": 0.7172,
+      "front_top_mean_iou": 0.4308,
+      "mean_iou": 0.5263
+    },
+    {
+      "first": "market_wooden_cart",
+      "second": "garage_service_trolley",
+      "same_role": true,
+      "front_iou": 0.4282,
+      "top_iou": 0.6958,
+      "three_quarter_iou": 0.4483,
+      "front_top_mean_iou": 0.562,
+      "mean_iou": 0.5241
+    },
+    {
+      "first": "pool_towel_cart",
+      "second": "art_paint_trolley",
+      "same_role": true,
+      "front_iou": 0.6231,
+      "top_iou": 0.4646,
+      "three_quarter_iou": 0.478,
+      "front_top_mean_iou": 0.5438,
+      "mean_iou": 0.5219
+    },
+    {
+      "first": "pool_towel_cart",
+      "second": "library_book_return_cart",
+      "same_role": true,
+      "front_iou": 0.3363,
+      "top_iou": 0.6885,
+      "three_quarter_iou": 0.5118,
+      "front_top_mean_iou": 0.5124,
+      "mean_iou": 0.5122
+    },
+    {
+      "first": "greenhouse_compost_barrel",
+      "second": "bakery_flour_barrel",
+      "same_role": true,
+      "front_iou": 0.5848,
+      "top_iou": 0.4056,
+      "three_quarter_iou": 0.5356,
+      "front_top_mean_iou": 0.4952,
+      "mean_iou": 0.5086
+    },
+    {
+      "first": "library_book_return_cart",
+      "second": "garage_service_trolley",
+      "same_role": true,
+      "front_iou": 0.3813,
+      "top_iou": 0.6193,
+      "three_quarter_iou": 0.5218,
+      "front_top_mean_iou": 0.5003,
+      "mean_iou": 0.5075
+    },
+    {
+      "first": "cafe_serving_tray",
+      "second": "clinic_medical_tray",
+      "same_role": true,
+      "front_iou": 0.4715,
+      "top_iou": 0.4538,
+      "three_quarter_iou": 0.5871,
+      "front_top_mean_iou": 0.4626,
+      "mean_iou": 0.5041
+    },
+    {
+      "first": "garage_service_trolley",
+      "second": "recycling_collection_cart",
+      "same_role": true,
+      "front_iou": 0.4644,
+      "top_iou": 0.5288,
+      "three_quarter_iou": 0.5174,
+      "front_top_mean_iou": 0.4966,
+      "mean_iou": 0.5035
+    },
+    {
+      "first": "workshop_toolbox",
+      "second": "recycling_glass_crate",
+      "same_role": true,
+      "front_iou": 0.417,
+      "top_iou": 0.5564,
+      "three_quarter_iou": 0.5234,
+      "front_top_mean_iou": 0.4867,
+      "mean_iou": 0.4989
+    },
+    {
+      "first": "clinic_first_aid_cart",
+      "second": "art_paint_trolley",
+      "same_role": true,
+      "front_iou": 0.2852,
+      "top_iou": 0.8058,
+      "three_quarter_iou": 0.3885,
+      "front_top_mean_iou": 0.5455,
+      "mean_iou": 0.4932
+    },
+    {
+      "first": "greenhouse_seed_cabinet",
+      "second": "post_mail_slots",
+      "same_role": true,
+      "front_iou": 0.545,
+      "top_iou": 0.3876,
+      "three_quarter_iou": 0.5405,
+      "front_top_mean_iou": 0.4663,
+      "mean_iou": 0.491
+    },
+    {
+      "first": "greenhouse_compost_barrel",
+      "second": "harbor_harbor_barrel",
+      "same_role": true,
+      "front_iou": 0.5745,
+      "top_iou": 0.3161,
+      "three_quarter_iou": 0.5744,
+      "front_top_mean_iou": 0.4453,
+      "mean_iou": 0.4883
+    },
+    {
+      "first": "library_bookcase",
+      "second": "observatory_lens_cabinet",
+      "same_role": true,
+      "front_iou": 0.4853,
+      "top_iou": 0.3516,
+      "three_quarter_iou": 0.6108,
+      "front_top_mean_iou": 0.4185,
+      "mean_iou": 0.4826
+    },
+    {
+      "first": "post_parcel_trolley",
+      "second": "recycling_collection_cart",
+      "same_role": true,
+      "front_iou": 0.5001,
+      "top_iou": 0.4239,
+      "three_quarter_iou": 0.5159,
+      "front_top_mean_iou": 0.462,
+      "mean_iou": 0.48
+    },
+    {
+      "first": "market_checkout_register",
+      "second": "workshop_power_console",
+      "same_role": true,
+      "front_iou": 0.4474,
+      "top_iou": 0.4581,
+      "three_quarter_iou": 0.5247,
+      "front_top_mean_iou": 0.4527,
+      "mean_iou": 0.4767
+    },
+    {
+      "first": "pool_towel_cart",
+      "second": "clinic_first_aid_cart",
+      "same_role": true,
+      "front_iou": 0.3971,
+      "top_iou": 0.5306,
+      "three_quarter_iou": 0.4941,
+      "front_top_mean_iou": 0.4638,
+      "mean_iou": 0.4739
+    },
+    {
+      "first": "market_checkout_register",
+      "second": "cafe_espresso_machine",
+      "same_role": true,
+      "front_iou": 0.461,
+      "top_iou": 0.4639,
+      "three_quarter_iou": 0.4946,
+      "front_top_mean_iou": 0.4625,
+      "mean_iou": 0.4732
+    },
+    {
+      "first": "market_wooden_cart",
+      "second": "recycling_collection_cart",
+      "same_role": true,
+      "front_iou": 0.3564,
+      "top_iou": 0.6493,
+      "three_quarter_iou": 0.4084,
+      "front_top_mean_iou": 0.5029,
+      "mean_iou": 0.4714
+    },
+    {
+      "first": "post_parcel_trolley",
+      "second": "library_book_return_cart",
+      "same_role": true,
+      "front_iou": 0.2832,
+      "top_iou": 0.743,
+      "three_quarter_iou": 0.3876,
+      "front_top_mean_iou": 0.5131,
+      "mean_iou": 0.4713
+    },
+    {
+      "first": "post_parcel_trolley",
+      "second": "garage_service_trolley",
+      "same_role": true,
+      "front_iou": 0.2572,
+      "top_iou": 0.7973,
+      "three_quarter_iou": 0.3594,
+      "front_top_mean_iou": 0.5273,
+      "mean_iou": 0.4713
+    },
+    {
+      "first": "post_parcel_trolley",
+      "second": "art_paint_trolley",
+      "same_role": true,
+      "front_iou": 0.4582,
+      "top_iou": 0.3967,
+      "three_quarter_iou": 0.5502,
+      "front_top_mean_iou": 0.4275,
+      "mean_iou": 0.4684
+    },
+    {
+      "first": "market_wooden_cart",
+      "second": "library_book_return_cart",
+      "same_role": true,
+      "front_iou": 0.4567,
+      "top_iou": 0.5043,
+      "three_quarter_iou": 0.4395,
+      "front_top_mean_iou": 0.4805,
+      "mean_iou": 0.4669
+    },
+    {
+      "first": "market_wooden_cart",
+      "second": "art_paint_trolley",
+      "same_role": true,
+      "front_iou": 0.3125,
+      "top_iou": 0.6254,
+      "three_quarter_iou": 0.4623,
+      "front_top_mean_iou": 0.469,
+      "mean_iou": 0.4667
+    }
+  ],
+  "worst_any_role": [
+    {
+      "first": "post_postal_box",
+      "second": "music_speaker_stack",
+      "same_role": false,
+      "front_iou": 0.854,
+      "top_iou": 0.8055,
+      "three_quarter_iou": 0.7686,
+      "front_top_mean_iou": 0.8297,
+      "mean_iou": 0.8094
+    },
+    {
+      "first": "clinic_examination_bed",
+      "second": "music_instrument_case",
+      "same_role": false,
+      "front_iou": 0.8045,
+      "top_iou": 0.715,
+      "three_quarter_iou": 0.8537,
+      "front_top_mean_iou": 0.7597,
+      "mean_iou": 0.791
+    },
+    {
+      "first": "post_stamp_press",
+      "second": "music_concert_drum",
+      "same_role": false,
+      "front_iou": 0.7699,
+      "top_iou": 0.7617,
+      "three_quarter_iou": 0.7847,
+      "front_top_mean_iou": 0.7658,
+      "mean_iou": 0.7721
+    },
+    {
+      "first": "clinic_medicine_cabinet",
+      "second": "art_brush_rack",
+      "same_role": false,
+      "front_iou": 0.664,
+      "top_iou": 0.927,
+      "three_quarter_iou": 0.6676,
+      "front_top_mean_iou": 0.7955,
+      "mean_iou": 0.7529
+    },
+    {
+      "first": "music_concert_drum",
+      "second": "harbor_mooring_bollard",
+      "same_role": false,
+      "front_iou": 0.7289,
+      "top_iou": 0.7384,
+      "three_quarter_iou": 0.7779,
+      "front_top_mean_iou": 0.7336,
+      "mean_iou": 0.7484
+    },
+    {
+      "first": "workshop_power_console",
+      "second": "post_parcel_trolley",
+      "same_role": false,
+      "front_iou": 0.6671,
+      "top_iou": 0.8629,
+      "three_quarter_iou": 0.6752,
+      "front_top_mean_iou": 0.765,
+      "mean_iou": 0.7351
+    },
+    {
+      "first": "pool_towel_cart",
+      "second": "music_speaker_stack",
+      "same_role": false,
+      "front_iou": 0.6404,
+      "top_iou": 0.7503,
+      "three_quarter_iou": 0.7945,
+      "front_top_mean_iou": 0.6954,
+      "mean_iou": 0.7284
+    },
+    {
+      "first": "market_wicker_basket",
+      "second": "workshop_toolbox",
+      "same_role": false,
+      "front_iou": 0.713,
+      "top_iou": 0.6212,
+      "three_quarter_iou": 0.8415,
+      "front_top_mean_iou": 0.6671,
+      "mean_iou": 0.7252
+    },
+    {
+      "first": "greenhouse_clay_planter",
+      "second": "post_postal_box",
+      "same_role": false,
+      "front_iou": 0.6526,
+      "top_iou": 0.8438,
+      "three_quarter_iou": 0.6787,
+      "front_top_mean_iou": 0.7482,
+      "mean_iou": 0.725
+    },
+    {
+      "first": "clinic_first_aid_cart",
+      "second": "music_concert_drum",
+      "same_role": false,
+      "front_iou": 0.6513,
+      "top_iou": 0.7613,
+      "three_quarter_iou": 0.7219,
+      "front_top_mean_iou": 0.7063,
+      "mean_iou": 0.7115
+    },
+    {
+      "first": "market_checkout_register",
+      "second": "garage_engine_block",
+      "same_role": false,
+      "front_iou": 0.7723,
+      "top_iou": 0.6285,
+      "three_quarter_iou": 0.732,
+      "front_top_mean_iou": 0.7004,
+      "mean_iou": 0.711
+    },
+    {
+      "first": "bakery_pastry_display",
+      "second": "library_book_return_cart",
+      "same_role": false,
+      "front_iou": 0.6049,
+      "top_iou": 0.8399,
+      "three_quarter_iou": 0.6856,
+      "front_top_mean_iou": 0.7224,
+      "mean_iou": 0.7101
+    },
+    {
+      "first": "garage_engine_block",
+      "second": "recycling_compost_tumbler",
+      "same_role": false,
+      "front_iou": 0.5864,
+      "top_iou": 0.8229,
+      "three_quarter_iou": 0.7003,
+      "front_top_mean_iou": 0.7047,
+      "mean_iou": 0.7032
+    },
+    {
+      "first": "bakery_bread_oven",
+      "second": "garage_engine_block",
+      "same_role": false,
+      "front_iou": 0.7405,
+      "top_iou": 0.6933,
+      "three_quarter_iou": 0.6709,
+      "front_top_mean_iou": 0.7169,
+      "mean_iou": 0.7016
+    },
+    {
+      "first": "greenhouse_clay_planter",
+      "second": "bakery_baguette_basket",
+      "same_role": false,
+      "front_iou": 0.6536,
+      "top_iou": 0.7637,
+      "three_quarter_iou": 0.6811,
+      "front_top_mean_iou": 0.7087,
+      "mean_iou": 0.6995
+    },
+    {
+      "first": "post_mail_slots",
+      "second": "garage_engine_block",
+      "same_role": false,
+      "front_iou": 0.817,
+      "top_iou": 0.5133,
+      "three_quarter_iou": 0.766,
+      "front_top_mean_iou": 0.6651,
+      "mean_iou": 0.6987
+    },
+    {
+      "first": "post_mail_slots",
+      "second": "library_book_return_cart",
+      "same_role": false,
+      "front_iou": 0.5695,
+      "top_iou": 0.8363,
+      "three_quarter_iou": 0.6832,
+      "front_top_mean_iou": 0.7029,
+      "mean_iou": 0.6963
+    },
+    {
+      "first": "post_stamp_press",
+      "second": "clinic_first_aid_cart",
+      "same_role": false,
+      "front_iou": 0.6812,
+      "top_iou": 0.7214,
+      "three_quarter_iou": 0.6849,
+      "front_top_mean_iou": 0.7013,
+      "mean_iou": 0.6958
+    },
+    {
+      "first": "greenhouse_compost_barrel",
+      "second": "post_postal_box",
+      "same_role": false,
+      "front_iou": 0.6633,
+      "top_iou": 0.7533,
+      "three_quarter_iou": 0.6682,
+      "front_top_mean_iou": 0.7083,
+      "mean_iou": 0.6949
+    },
+    {
+      "first": "market_checkout_register",
+      "second": "post_mail_slots",
+      "same_role": false,
+      "front_iou": 0.8264,
+      "top_iou": 0.5053,
+      "three_quarter_iou": 0.7517,
+      "front_top_mean_iou": 0.6659,
+      "mean_iou": 0.6945
+    },
+    {
+      "first": "bakery_pastry_display",
+      "second": "recycling_glass_crate",
+      "same_role": false,
+      "front_iou": 0.7261,
+      "top_iou": 0.6054,
+      "three_quarter_iou": 0.744,
+      "front_top_mean_iou": 0.6657,
+      "mean_iou": 0.6918
+    },
+    {
+      "first": "bakery_pastry_display",
+      "second": "post_mail_slots",
+      "same_role": false,
+      "front_iou": 0.6517,
+      "top_iou": 0.8077,
+      "three_quarter_iou": 0.6149,
+      "front_top_mean_iou": 0.7297,
+      "mean_iou": 0.6915
+    },
+    {
+      "first": "bakery_bread_oven",
+      "second": "recycling_compost_tumbler",
+      "same_role": false,
+      "front_iou": 0.5951,
+      "top_iou": 0.7488,
+      "three_quarter_iou": 0.7278,
+      "front_top_mean_iou": 0.672,
+      "mean_iou": 0.6906
+    },
+    {
+      "first": "greenhouse_seed_cabinet",
+      "second": "recycling_compost_tumbler",
+      "same_role": false,
+      "front_iou": 0.5805,
+      "top_iou": 0.7278,
+      "three_quarter_iou": 0.7572,
+      "front_top_mean_iou": 0.6541,
+      "mean_iou": 0.6885
+    },
+    {
+      "first": "post_sorting_counter",
+      "second": "library_bookcase",
+      "same_role": false,
+      "front_iou": 0.5571,
+      "top_iou": 0.8516,
+      "three_quarter_iou": 0.6506,
+      "front_top_mean_iou": 0.7043,
+      "mean_iou": 0.6864
+    },
+    {
+      "first": "cafe_espresso_machine",
+      "second": "harbor_mooring_bollard",
+      "same_role": false,
+      "front_iou": 0.6534,
+      "top_iou": 0.7289,
+      "three_quarter_iou": 0.6761,
+      "front_top_mean_iou": 0.6912,
+      "mean_iou": 0.6861
+    },
+    {
+      "first": "market_red_apple",
+      "second": "cafe_serving_cup",
+      "same_role": false,
+      "front_iou": 0.6566,
+      "top_iou": 0.7473,
+      "three_quarter_iou": 0.654,
+      "front_top_mean_iou": 0.702,
+      "mean_iou": 0.686
+    },
+    {
+      "first": "greenhouse_compost_barrel",
+      "second": "harbor_fish_crate",
+      "same_role": false,
+      "front_iou": 0.77,
+      "top_iou": 0.5188,
+      "three_quarter_iou": 0.7577,
+      "front_top_mean_iou": 0.6444,
+      "mean_iou": 0.6822
+    },
+    {
+      "first": "post_postal_box",
+      "second": "harbor_fish_crate",
+      "same_role": false,
+      "front_iou": 0.7608,
+      "top_iou": 0.5778,
+      "three_quarter_iou": 0.7032,
+      "front_top_mean_iou": 0.6693,
+      "mean_iou": 0.6806
+    },
+    {
+      "first": "workshop_windmill_tower",
+      "second": "observatory_lens_cabinet",
+      "same_role": false,
+      "front_iou": 0.6133,
+      "top_iou": 0.6777,
+      "three_quarter_iou": 0.7405,
+      "front_top_mean_iou": 0.6455,
+      "mean_iou": 0.6772
+    }
+  ]
+}

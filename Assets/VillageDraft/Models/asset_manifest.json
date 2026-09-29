@@ -1,0 +1,2342 @@
+{
+  "provenance": "AI-assisted procedural Blender reference models; declare in coursework; zero self-modeled rubric credit.",
+  "blender_version": "5.2.2 LTS",
+  "coordinate_system": "Blender Z-up; FBX Unity Y-up; venue front faces local -Z in Unity.",
+  "venues": {
+    "market": {
+      "label": "MARKET",
+      "blend": "Source/market.blend",
+      "accent_rgb": [
+        0.84,
+        0.25,
+        0.2
+      ],
+      "assets": [
+        {
+          "name": "market_exterior",
+          "role": "exterior",
+          "fbx": "FBX/market/market_exterior.fbx",
+          "suggested_local_position": [
+            0,
+            0,
+            0
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "source_mesh_parts": 46,
+          "export_meshes": 1,
+          "material_slots": 7,
+          "triangles": 7623
+        },
+        {
+          "name": "market_produce_stand",
+          "role": "display",
+          "fbx": "FBX/market/market_produce_stand.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 8,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 968
+        },
+        {
+          "name": "market_wicker_basket",
+          "role": "basket",
+          "fbx": "FBX/market/market_wicker_basket.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "Basket",
+          "action_visual_scale": 0.92,
+          "source_mesh_parts": 6,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 1412
+        },
+        {
+          "name": "market_checkout_register",
+          "role": "machine",
+          "fbx": "FBX/market/market_checkout_register.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "Register",
+          "action_visual_scale": 0.78,
+          "source_mesh_parts": 10,
+          "export_meshes": 1,
+          "material_slots": 6,
+          "triangles": 1400
+        },
+        {
+          "name": "market_wooden_cart",
+          "role": "cart",
+          "fbx": "FBX/market/market_wooden_cart.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 19,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 2692
+        },
+        {
+          "name": "market_fruit_scale",
+          "role": "scale",
+          "fbx": "FBX/market/market_fruit_scale.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 12,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 2280
+        },
+        {
+          "name": "market_bread_loaf",
+          "role": "bread",
+          "fbx": "FBX/market/market_bread_loaf.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "Grab bread",
+          "action_visual_scale": 0.42,
+          "source_mesh_parts": 4,
+          "export_meshes": 1,
+          "material_slots": 2,
+          "triangles": 348
+        },
+        {
+          "name": "market_red_apple",
+          "role": "apple",
+          "fbx": "FBX/market/market_red_apple.fbx",
+          "suggested_local_position": [
+            0,
+            0.1,
+            3.45
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "Grab apple",
+          "action_visual_scale": 0.55,
+          "source_mesh_parts": 3,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 468
+        }
+      ],
+      "extras": []
+    },
+    "cafe": {
+      "label": "CAFE",
+      "blend": "Source/cafe.blend",
+      "accent_rgb": [
+        0.91,
+        0.43,
+        0.17
+      ],
+      "assets": [
+        {
+          "name": "cafe_exterior",
+          "role": "exterior",
+          "fbx": "FBX/cafe/cafe_exterior.fbx",
+          "suggested_local_position": [
+            0,
+            0,
+            0
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "source_mesh_parts": 23,
+          "export_meshes": 1,
+          "material_slots": 6,
+          "triangles": 6480
+        },
+        {
+          "name": "cafe_espresso_machine",
+          "role": "machine",
+          "fbx": "FBX/cafe/cafe_espresso_machine.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "Coffee machine",
+          "action_visual_scale": 0.82,
+          "source_mesh_parts": 11,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1604
+        },
+        {
+          "name": "cafe_cafe_counter",
+          "role": "counter",
+          "fbx": "FBX/cafe/cafe_cafe_counter.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 12,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1328
+        },
+        {
+          "name": "cafe_cafe_table",
+          "role": "table",
+          "fbx": "FBX/cafe/cafe_cafe_table.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 8,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 1112
+        },
+        {
+          "name": "cafe_bar_stool",
+          "role": "stool",
+          "fbx": "FBX/cafe/cafe_bar_stool.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 3,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 404
+        },
+        {
+          "name": "cafe_coffee_grinder",
+          "role": "grinder",
+          "fbx": "FBX/cafe/cafe_coffee_grinder.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 6,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 808
+        },
+        {
+          "name": "cafe_serving_tray",
+          "role": "tray",
+          "fbx": "FBX/cafe/cafe_serving_tray.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 10,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 1416
+        },
+        {
+          "name": "cafe_serving_cup",
+          "role": "cup",
+          "fbx": "FBX/cafe/cafe_serving_cup.fbx",
+          "suggested_local_position": [
+            0,
+            0.1,
+            3.45
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "Grab coffee cup",
+          "action_visual_scale": 0.52,
+          "source_mesh_parts": 5,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 1204
+        }
+      ],
+      "extras": []
+    },
+    "workshop": {
+      "label": "WORKSHOP",
+      "blend": "Source/workshop.blend",
+      "accent_rgb": [
+        0.22,
+        0.49,
+        0.75
+      ],
+      "assets": [
+        {
+          "name": "workshop_exterior",
+          "role": "exterior",
+          "fbx": "FBX/workshop/workshop_exterior.fbx",
+          "suggested_local_position": [
+            0,
+            0,
+            0
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "source_mesh_parts": 27,
+          "export_meshes": 1,
+          "material_slots": 6,
+          "triangles": 14622
+        },
+        {
+          "name": "workshop_windmill_tower",
+          "role": "windmill",
+          "fbx": "FBX/workshop/workshop_windmill_tower.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 12,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1262
+        },
+        {
+          "name": "workshop_workbench",
+          "role": "counter",
+          "fbx": "FBX/workshop/workshop_workbench.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 12,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1296
+        },
+        {
+          "name": "workshop_tool_rack",
+          "role": "rack",
+          "fbx": "FBX/workshop/workshop_tool_rack.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 7,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 756
+        },
+        {
+          "name": "workshop_power_console",
+          "role": "machine",
+          "fbx": "FBX/workshop/workshop_power_console.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 11,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1508
+        },
+        {
+          "name": "workshop_gear_assembly",
+          "role": "gear",
+          "fbx": "FBX/workshop/workshop_gear_assembly.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 25,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 3428
+        },
+        {
+          "name": "workshop_toolbox",
+          "role": "crate",
+          "fbx": "FBX/workshop/workshop_toolbox.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 9,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 972
+        },
+        {
+          "name": "workshop_repair_vise",
+          "role": "vise",
+          "fbx": "FBX/workshop/workshop_repair_vise.fbx",
+          "suggested_local_position": [
+            0,
+            0.1,
+            3.45
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 5,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 620
+        }
+      ],
+      "extras": []
+    },
+    "greenhouse": {
+      "label": "GREENHOUSE",
+      "blend": "Source/greenhouse.blend",
+      "accent_rgb": [
+        0.28,
+        0.64,
+        0.37
+      ],
+      "assets": [
+        {
+          "name": "greenhouse_exterior",
+          "role": "exterior",
+          "fbx": "FBX/greenhouse/greenhouse_exterior.fbx",
+          "suggested_local_position": [
+            0,
+            0,
+            0
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "source_mesh_parts": 85,
+          "export_meshes": 1,
+          "material_slots": 7,
+          "triangles": 22584
+        },
+        {
+          "name": "greenhouse_planting_bench",
+          "role": "counter",
+          "fbx": "FBX/greenhouse/greenhouse_planting_bench.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 15,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1620
+        },
+        {
+          "name": "greenhouse_water_pump",
+          "role": "pump",
+          "fbx": "FBX/greenhouse/greenhouse_water_pump.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 5,
+          "export_meshes": 1,
+          "material_slots": 2,
+          "triangles": 572
+        },
+        {
+          "name": "greenhouse_seed_cabinet",
+          "role": "cabinet",
+          "fbx": "FBX/greenhouse/greenhouse_seed_cabinet.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 15,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1680
+        },
+        {
+          "name": "greenhouse_clay_planter",
+          "role": "plant",
+          "fbx": "FBX/greenhouse/greenhouse_clay_planter.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 13,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 2384
+        },
+        {
+          "name": "greenhouse_garden_trellis",
+          "role": "trellis",
+          "fbx": "FBX/greenhouse/greenhouse_garden_trellis.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 10,
+          "export_meshes": 1,
+          "material_slots": 2,
+          "triangles": 1080
+        },
+        {
+          "name": "greenhouse_watering_can",
+          "role": "can",
+          "fbx": "FBX/greenhouse/greenhouse_watering_can.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 4,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 908
+        },
+        {
+          "name": "greenhouse_compost_barrel",
+          "role": "barrel",
+          "fbx": "FBX/greenhouse/greenhouse_compost_barrel.fbx",
+          "suggested_local_position": [
+            0,
+            0.1,
+            3.45
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 9,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 2096
+        }
+      ],
+      "extras": [
+        {
+          "name": "greenhouse_seed_packet",
+          "role": "seed_packet",
+          "fbx": "FBX/greenhouse/greenhouse_seed_packet.fbx",
+          "source_mesh_parts": 8,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 864
+        }
+      ]
+    },
+    "pool": {
+      "label": "POOL",
+      "blend": "Source/pool.blend",
+      "accent_rgb": [
+        0.2,
+        0.68,
+        0.7
+      ],
+      "assets": [
+        {
+          "name": "pool_exterior",
+          "role": "exterior",
+          "fbx": "FBX/pool/pool_exterior.fbx",
+          "suggested_local_position": [
+            0,
+            0,
+            0
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "source_mesh_parts": 27,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 9304
+        },
+        {
+          "name": "pool_lifeguard_chair",
+          "role": "chair",
+          "fbx": "FBX/pool/pool_lifeguard_chair.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 9,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 972
+        },
+        {
+          "name": "pool_ring_target",
+          "role": "ring",
+          "fbx": "FBX/pool/pool_ring_target.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 5,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 816
+        },
+        {
+          "name": "pool_diving_board",
+          "role": "board",
+          "fbx": "FBX/pool/pool_diving_board.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 7,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 756
+        },
+        {
+          "name": "pool_pool_lounger",
+          "role": "lounger",
+          "fbx": "FBX/pool/pool_pool_lounger.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 6,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 648
+        },
+        {
+          "name": "pool_changing_screen",
+          "role": "screen",
+          "fbx": "FBX/pool/pool_changing_screen.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 11,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 1188
+        },
+        {
+          "name": "pool_toss_ring",
+          "role": "tossring",
+          "fbx": "FBX/pool/pool_toss_ring.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "Grab and toss ring",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 5,
+          "export_meshes": 1,
+          "material_slots": 2,
+          "triangles": 1056
+        },
+        {
+          "name": "pool_towel_cart",
+          "role": "cart",
+          "fbx": "FBX/pool/pool_towel_cart.fbx",
+          "suggested_local_position": [
+            0,
+            0.1,
+            3.45
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 18,
+          "export_meshes": 1,
+          "material_slots": 6,
+          "triangles": 3088
+        }
+      ],
+      "extras": []
+    },
+    "bakery": {
+      "label": "BAKERY",
+      "blend": "Source/bakery.blend",
+      "accent_rgb": [
+        0.87,
+        0.55,
+        0.23
+      ],
+      "assets": [
+        {
+          "name": "bakery_exterior",
+          "role": "exterior",
+          "fbx": "FBX/bakery/bakery_exterior.fbx",
+          "suggested_local_position": [
+            0,
+            0,
+            0
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "source_mesh_parts": 33,
+          "export_meshes": 1,
+          "material_slots": 6,
+          "triangles": 10008
+        },
+        {
+          "name": "bakery_bread_oven",
+          "role": "oven",
+          "fbx": "FBX/bakery/bakery_bread_oven.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 6,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 636
+        },
+        {
+          "name": "bakery_dough_counter",
+          "role": "counter",
+          "fbx": "FBX/bakery/bakery_dough_counter.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 12,
+          "export_meshes": 1,
+          "material_slots": 6,
+          "triangles": 1476
+        },
+        {
+          "name": "bakery_rolling_rack",
+          "role": "rack",
+          "fbx": "FBX/bakery/bakery_rolling_rack.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 16,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 2424
+        },
+        {
+          "name": "bakery_dough_mixer",
+          "role": "mixer",
+          "fbx": "FBX/bakery/bakery_dough_mixer.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 7,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 876
+        },
+        {
+          "name": "bakery_baguette_basket",
+          "role": "basket",
+          "fbx": "FBX/bakery/bakery_baguette_basket.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 7,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 1908
+        },
+        {
+          "name": "bakery_pastry_display",
+          "role": "display",
+          "fbx": "FBX/bakery/bakery_pastry_display.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 5,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 684
+        },
+        {
+          "name": "bakery_flour_barrel",
+          "role": "barrel",
+          "fbx": "FBX/bakery/bakery_flour_barrel.fbx",
+          "suggested_local_position": [
+            0,
+            0.1,
+            3.45
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 7,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1712
+        }
+      ],
+      "extras": []
+    },
+    "post": {
+      "label": "POST OFFICE",
+      "blend": "Source/post.blend",
+      "accent_rgb": [
+        0.71,
+        0.38,
+        0.5
+      ],
+      "assets": [
+        {
+          "name": "post_exterior",
+          "role": "exterior",
+          "fbx": "FBX/post/post_exterior.fbx",
+          "suggested_local_position": [
+            0,
+            0,
+            0
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "source_mesh_parts": 20,
+          "export_meshes": 1,
+          "material_slots": 6,
+          "triangles": 14329
+        },
+        {
+          "name": "post_sorting_counter",
+          "role": "counter",
+          "fbx": "FBX/post/post_sorting_counter.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 12,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1296
+        },
+        {
+          "name": "post_mail_slots",
+          "role": "cabinet",
+          "fbx": "FBX/post/post_mail_slots.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 15,
+          "export_meshes": 1,
+          "material_slots": 6,
+          "triangles": 1780
+        },
+        {
+          "name": "post_parcel_trolley",
+          "role": "cart",
+          "fbx": "FBX/post/post_parcel_trolley.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 17,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 2476
+        },
+        {
+          "name": "post_stamp_press",
+          "role": "press",
+          "fbx": "FBX/post/post_stamp_press.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 4,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 432
+        },
+        {
+          "name": "post_letter_scale",
+          "role": "scale",
+          "fbx": "FBX/post/post_letter_scale.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 11,
+          "export_meshes": 1,
+          "material_slots": 6,
+          "triangles": 1980
+        },
+        {
+          "name": "post_postal_box",
+          "role": "mailbox",
+          "fbx": "FBX/post/post_postal_box.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 4,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 496
+        },
+        {
+          "name": "post_wrapping_station",
+          "role": "table",
+          "fbx": "FBX/post/post_wrapping_station.fbx",
+          "suggested_local_position": [
+            0,
+            0.1,
+            3.45
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 9,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1068
+        }
+      ],
+      "extras": []
+    },
+    "clinic": {
+      "label": "CLINIC",
+      "blend": "Source/clinic.blend",
+      "accent_rgb": [
+        0.26,
+        0.65,
+        0.6
+      ],
+      "assets": [
+        {
+          "name": "clinic_exterior",
+          "role": "exterior",
+          "fbx": "FBX/clinic/clinic_exterior.fbx",
+          "suggested_local_position": [
+            0,
+            0,
+            0
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "source_mesh_parts": 37,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 8952
+        },
+        {
+          "name": "clinic_examination_bed",
+          "role": "bed",
+          "fbx": "FBX/clinic/clinic_examination_bed.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 3,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 324
+        },
+        {
+          "name": "clinic_medicine_cabinet",
+          "role": "cabinet",
+          "fbx": "FBX/clinic/clinic_medicine_cabinet.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 13,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1564
+        },
+        {
+          "name": "clinic_heart_monitor",
+          "role": "monitor",
+          "fbx": "FBX/clinic/clinic_heart_monitor.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 7,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1124
+        },
+        {
+          "name": "clinic_first_aid_cart",
+          "role": "cart",
+          "fbx": "FBX/clinic/clinic_first_aid_cart.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 16,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 2368
+        },
+        {
+          "name": "clinic_treatment_lamp",
+          "role": "lamp",
+          "fbx": "FBX/clinic/clinic_treatment_lamp.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 7,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1088
+        },
+        {
+          "name": "clinic_clinic_desk",
+          "role": "table",
+          "fbx": "FBX/clinic/clinic_clinic_desk.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 8,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 864
+        },
+        {
+          "name": "clinic_medical_tray",
+          "role": "tray",
+          "fbx": "FBX/clinic/clinic_medical_tray.fbx",
+          "suggested_local_position": [
+            0,
+            0.1,
+            3.45
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 9,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1140
+        }
+      ],
+      "extras": []
+    },
+    "library": {
+      "label": "LIBRARY",
+      "blend": "Source/library.blend",
+      "accent_rgb": [
+        0.49,
+        0.43,
+        0.7
+      ],
+      "assets": [
+        {
+          "name": "library_exterior",
+          "role": "exterior",
+          "fbx": "FBX/library/library_exterior.fbx",
+          "suggested_local_position": [
+            0,
+            0,
+            0
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "source_mesh_parts": 34,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 10848
+        },
+        {
+          "name": "library_bookcase",
+          "role": "cabinet",
+          "fbx": "FBX/library/library_bookcase.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 16,
+          "export_meshes": 1,
+          "material_slots": 6,
+          "triangles": 1796
+        },
+        {
+          "name": "library_reading_desk",
+          "role": "table",
+          "fbx": "FBX/library/library_reading_desk.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 9,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 972
+        },
+        {
+          "name": "library_book_return_cart",
+          "role": "cart",
+          "fbx": "FBX/library/library_book_return_cart.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 17,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 2476
+        },
+        {
+          "name": "library_story_podium",
+          "role": "podium",
+          "fbx": "FBX/library/library_story_podium.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 5,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 520
+        },
+        {
+          "name": "library_reading_lamp",
+          "role": "lamp",
+          "fbx": "FBX/library/library_reading_lamp.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 7,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1056
+        },
+        {
+          "name": "library_open_book",
+          "role": "book",
+          "fbx": "FBX/library/library_open_book.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 5,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 540
+        },
+        {
+          "name": "library_study_bench",
+          "role": "bench",
+          "fbx": "FBX/library/library_study_bench.fbx",
+          "suggested_local_position": [
+            0,
+            0.1,
+            3.45
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 6,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 648
+        }
+      ],
+      "extras": []
+    },
+    "music": {
+      "label": "MUSIC HALL",
+      "blend": "Source/music.blend",
+      "accent_rgb": [
+        0.72,
+        0.3,
+        0.57
+      ],
+      "assets": [
+        {
+          "name": "music_exterior",
+          "role": "exterior",
+          "fbx": "FBX/music/music_exterior.fbx",
+          "suggested_local_position": [
+            0,
+            0,
+            0
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "source_mesh_parts": 44,
+          "export_meshes": 1,
+          "material_slots": 7,
+          "triangles": 12444
+        },
+        {
+          "name": "music_stage_piano",
+          "role": "piano",
+          "fbx": "FBX/music/music_stage_piano.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 14,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 1512
+        },
+        {
+          "name": "music_concert_drum",
+          "role": "drum",
+          "fbx": "FBX/music/music_concert_drum.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 11,
+          "export_meshes": 1,
+          "material_slots": 2,
+          "triangles": 1916
+        },
+        {
+          "name": "music_microphone_stand",
+          "role": "microphone",
+          "fbx": "FBX/music/music_microphone_stand.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 3,
+          "export_meshes": 1,
+          "material_slots": 2,
+          "triangles": 464
+        },
+        {
+          "name": "music_music_stand",
+          "role": "stand",
+          "fbx": "FBX/music/music_music_stand.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 5,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 620
+        },
+        {
+          "name": "music_speaker_stack",
+          "role": "speaker",
+          "fbx": "FBX/music/music_speaker_stack.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 5,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 1156
+        },
+        {
+          "name": "music_stage_spotlight",
+          "role": "lamp",
+          "fbx": "FBX/music/music_stage_spotlight.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 7,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 1364
+        },
+        {
+          "name": "music_instrument_case",
+          "role": "case",
+          "fbx": "FBX/music/music_instrument_case.fbx",
+          "suggested_local_position": [
+            0,
+            0.1,
+            3.45
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 3,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 324
+        }
+      ],
+      "extras": []
+    },
+    "garage": {
+      "label": "GARAGE",
+      "blend": "Source/garage.blend",
+      "accent_rgb": [
+        0.51,
+        0.59,
+        0.65
+      ],
+      "assets": [
+        {
+          "name": "garage_exterior",
+          "role": "exterior",
+          "fbx": "FBX/garage/garage_exterior.fbx",
+          "suggested_local_position": [
+            0,
+            0,
+            0
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "source_mesh_parts": 41,
+          "export_meshes": 1,
+          "material_slots": 7,
+          "triangles": 13980
+        },
+        {
+          "name": "garage_vehicle_lift",
+          "role": "lift",
+          "fbx": "FBX/garage/garage_vehicle_lift.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 7,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 756
+        },
+        {
+          "name": "garage_mechanic_bench",
+          "role": "counter",
+          "fbx": "FBX/garage/garage_mechanic_bench.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 14,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1512
+        },
+        {
+          "name": "garage_tire_rack",
+          "role": "rack",
+          "fbx": "FBX/garage/garage_tire_rack.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 9,
+          "export_meshes": 1,
+          "material_slots": 2,
+          "triangles": 2076
+        },
+        {
+          "name": "garage_engine_block",
+          "role": "engine",
+          "fbx": "FBX/garage/garage_engine_block.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 15,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 4608
+        },
+        {
+          "name": "garage_fuel_pump",
+          "role": "pump",
+          "fbx": "FBX/garage/garage_fuel_pump.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 4,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 432
+        },
+        {
+          "name": "garage_service_trolley",
+          "role": "cart",
+          "fbx": "FBX/garage/garage_service_trolley.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 18,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 2584
+        },
+        {
+          "name": "garage_traffic_cone",
+          "role": "cone",
+          "fbx": "FBX/garage/garage_traffic_cone.fbx",
+          "suggested_local_position": [
+            0,
+            0.1,
+            3.45
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 3,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 226
+        }
+      ],
+      "extras": []
+    },
+    "observatory": {
+      "label": "OBSERVATORY",
+      "blend": "Source/observatory.blend",
+      "accent_rgb": [
+        0.33,
+        0.43,
+        0.73
+      ],
+      "assets": [
+        {
+          "name": "observatory_exterior",
+          "role": "exterior",
+          "fbx": "FBX/observatory/observatory_exterior.fbx",
+          "suggested_local_position": [
+            0,
+            0,
+            0
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "source_mesh_parts": 34,
+          "export_meshes": 1,
+          "material_slots": 6,
+          "triangles": 19680
+        },
+        {
+          "name": "observatory_astronomy_telescope",
+          "role": "telescope",
+          "fbx": "FBX/observatory/observatory_astronomy_telescope.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 6,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 1132
+        },
+        {
+          "name": "observatory_star_chart_desk",
+          "role": "table",
+          "fbx": "FBX/observatory/observatory_star_chart_desk.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 9,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1388
+        },
+        {
+          "name": "observatory_orrery",
+          "role": "orrery",
+          "fbx": "FBX/observatory/observatory_orrery.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 5,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 1184
+        },
+        {
+          "name": "observatory_observation_podium",
+          "role": "podium",
+          "fbx": "FBX/observatory/observatory_observation_podium.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 5,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 896
+        },
+        {
+          "name": "observatory_lens_cabinet",
+          "role": "cabinet",
+          "fbx": "FBX/observatory/observatory_lens_cabinet.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 13,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 1936
+        },
+        {
+          "name": "observatory_moon_globe",
+          "role": "globe",
+          "fbx": "FBX/observatory/observatory_moon_globe.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 4,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 768
+        },
+        {
+          "name": "observatory_tripod_beacon",
+          "role": "lamp",
+          "fbx": "FBX/observatory/observatory_tripod_beacon.fbx",
+          "suggested_local_position": [
+            0,
+            0.1,
+            3.45
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 8,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1224
+        }
+      ],
+      "extras": []
+    },
+    "harbor": {
+      "label": "HARBOR",
+      "blend": "Source/harbor.blend",
+      "accent_rgb": [
+        0.19,
+        0.55,
+        0.74
+      ],
+      "assets": [
+        {
+          "name": "harbor_exterior",
+          "role": "exterior",
+          "fbx": "FBX/harbor/harbor_exterior.fbx",
+          "suggested_local_position": [
+            0,
+            0,
+            0
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "source_mesh_parts": 53,
+          "export_meshes": 1,
+          "material_slots": 6,
+          "triangles": 17319
+        },
+        {
+          "name": "harbor_fishing_boat",
+          "role": "boat",
+          "fbx": "FBX/harbor/harbor_fishing_boat.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 5,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 442
+        },
+        {
+          "name": "harbor_mooring_bollard",
+          "role": "bollard",
+          "fbx": "FBX/harbor/harbor_mooring_bollard.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 5,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 604
+        },
+        {
+          "name": "harbor_cargo_crane",
+          "role": "crane",
+          "fbx": "FBX/harbor/harbor_cargo_crane.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 10,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1080
+        },
+        {
+          "name": "harbor_fish_crate",
+          "role": "crate",
+          "fbx": "FBX/harbor/harbor_fish_crate.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 10,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 1200
+        },
+        {
+          "name": "harbor_life_buoy",
+          "role": "ring",
+          "fbx": "FBX/harbor/harbor_life_buoy.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 4,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 708
+        },
+        {
+          "name": "harbor_harbor_barrel",
+          "role": "barrel",
+          "fbx": "FBX/harbor/harbor_harbor_barrel.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 7,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 1988
+        },
+        {
+          "name": "harbor_dock_lantern",
+          "role": "lamp",
+          "fbx": "FBX/harbor/harbor_dock_lantern.fbx",
+          "suggested_local_position": [
+            0,
+            0.1,
+            3.45
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 7,
+          "export_meshes": 1,
+          "material_slots": 6,
+          "triangles": 1056
+        }
+      ],
+      "extras": []
+    },
+    "art": {
+      "label": "ART STUDIO",
+      "blend": "Source/art.blend",
+      "accent_rgb": [
+        0.74,
+        0.4,
+        0.42
+      ],
+      "assets": [
+        {
+          "name": "art_exterior",
+          "role": "exterior",
+          "fbx": "FBX/art/art_exterior.fbx",
+          "suggested_local_position": [
+            0,
+            0,
+            0
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "source_mesh_parts": 37,
+          "export_meshes": 1,
+          "material_slots": 7,
+          "triangles": 14736
+        },
+        {
+          "name": "art_painting_easel",
+          "role": "easel",
+          "fbx": "FBX/art/art_painting_easel.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 9,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 972
+        },
+        {
+          "name": "art_sculpture_plinth",
+          "role": "podium",
+          "fbx": "FBX/art/art_sculpture_plinth.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 5,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 680
+        },
+        {
+          "name": "art_paint_trolley",
+          "role": "cart",
+          "fbx": "FBX/art/art_paint_trolley.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 17,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 2812
+        },
+        {
+          "name": "art_pottery_wheel",
+          "role": "wheel",
+          "fbx": "FBX/art/art_pottery_wheel.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 15,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 2364
+        },
+        {
+          "name": "art_art_canvas",
+          "role": "canvas",
+          "fbx": "FBX/art/art_art_canvas.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 7,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 756
+        },
+        {
+          "name": "art_brush_rack",
+          "role": "rack",
+          "fbx": "FBX/art/art_brush_rack.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 9,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 972
+        },
+        {
+          "name": "art_palette_table",
+          "role": "table",
+          "fbx": "FBX/art/art_palette_table.fbx",
+          "suggested_local_position": [
+            0,
+            0.1,
+            3.45
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 10,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 1584
+        }
+      ],
+      "extras": []
+    },
+    "recycling": {
+      "label": "RECYCLE DEPOT",
+      "blend": "Source/recycling.blend",
+      "accent_rgb": [
+        0.39,
+        0.64,
+        0.46
+      ],
+      "assets": [
+        {
+          "name": "recycling_exterior",
+          "role": "exterior",
+          "fbx": "FBX/recycling/recycling_exterior.fbx",
+          "suggested_local_position": [
+            0,
+            0,
+            0
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "source_mesh_parts": 25,
+          "export_meshes": 1,
+          "material_slots": 6,
+          "triangles": 16208
+        },
+        {
+          "name": "recycling_sorting_bins",
+          "role": "bins",
+          "fbx": "FBX/recycling/recycling_sorting_bins.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 7,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 1584
+        },
+        {
+          "name": "recycling_bottle_crusher",
+          "role": "press",
+          "fbx": "FBX/recycling/recycling_bottle_crusher.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 4,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 432
+        },
+        {
+          "name": "recycling_conveyor",
+          "role": "conveyor",
+          "fbx": "FBX/recycling/recycling_conveyor.fbx",
+          "suggested_local_position": [
+            -4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": -90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 8,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 864
+        },
+        {
+          "name": "recycling_collection_cart",
+          "role": "cart",
+          "fbx": "FBX/recycling/recycling_collection_cart.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            2.75
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 15,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 2260
+        },
+        {
+          "name": "recycling_glass_crate",
+          "role": "crate",
+          "fbx": "FBX/recycling/recycling_glass_crate.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            0.1
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 11,
+          "export_meshes": 1,
+          "material_slots": 5,
+          "triangles": 1692
+        },
+        {
+          "name": "recycling_compost_tumbler",
+          "role": "tumbler",
+          "fbx": "FBX/recycling/recycling_compost_tumbler.fbx",
+          "suggested_local_position": [
+            4.35,
+            0.1,
+            -2.55
+          ],
+          "suggested_yaw_degrees": 90,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 7,
+          "export_meshes": 1,
+          "material_slots": 3,
+          "triangles": 1364
+        },
+        {
+          "name": "recycling_recycle_scale",
+          "role": "scale",
+          "fbx": "FBX/recycling/recycling_recycle_scale.fbx",
+          "suggested_local_position": [
+            0,
+            0.1,
+            3.45
+          ],
+          "suggested_yaw_degrees": 0,
+          "suggested_scale": 1.0,
+          "preferred_action_object": "",
+          "action_visual_scale": 1.0,
+          "source_mesh_parts": 11,
+          "export_meshes": 1,
+          "material_slots": 4,
+          "triangles": 1980
+        }
+      ],
+      "extras": []
+    }
+  }
+}

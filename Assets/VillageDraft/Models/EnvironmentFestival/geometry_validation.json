@@ -1,0 +1,137 @@
+{
+  "Festival village ground and distant meadow": {
+    "triangles": 6272,
+    "uv_complete": true,
+    "zero_area_faces": 0,
+    "min": [
+      -250.0,
+      -250.0,
+      -0.07999999821186066
+    ],
+    "max": [
+      250.0,
+      250.0,
+      6.419992923736572
+    ]
+  },
+  "Irregular festival district ground": {
+    "triangles": 192,
+    "uv_complete": true,
+    "zero_area_faces": 0,
+    "min": [
+      -82.67350769042969,
+      -92.01698303222656,
+      0.014000000432133675
+    ],
+    "max": [
+      102.36578369140625,
+      84.83296966552734,
+      0.02800000086426735
+    ]
+  },
+  "Village festival paths and civic paving": {
+    "triangles": 202,
+    "uv_complete": true,
+    "zero_area_faces": 0,
+    "min": [
+      -71.06066131591797,
+      -60.16802215576172,
+      0.0020000000949949026
+    ],
+    "max": [
+      89.0,
+      80.5,
+      0.041999999433755875
+    ]
+  },
+  "Civic clock and festival finale": {
+    "triangles": 3036,
+    "uv_complete": true,
+    "zero_area_faces": 0,
+    "min": [
+      -13.399999618530273,
+      -34.42499923706055,
+      0.0
+    ],
+    "max": [
+      17.690000534057617,
+      22.079999923706055,
+      11.375
+    ]
+  },
+  "Productive gardens and outdoor arts": {
+    "triangles": 2300,
+    "uv_complete": true,
+    "zero_area_faces": 0,
+    "min": [
+      -62.68144226074219,
+      29.899999618530273,
+      0.0
+    ],
+    "max": [
+      -15.75,
+      82.84135437011719,
+      4.050000190734863
+    ]
+  },
+  "Harbor piers, railings and seaside festival furniture": {
+    "triangles": 1730,
+    "uv_complete": true,
+    "zero_area_faces": 0,
+    "min": [
+      6.16596794128418,
+      54.37593078613281,
+      -0.09000000357627869
+    ],
+    "max": [
+      63.51433563232422,
+      89.75556182861328,
+      4.159999847412109
+    ]
+  },
+  "Tidal inlet water": {
+    "triangles": 80,
+    "uv_complete": true,
+    "zero_area_faces": 0,
+    "min": [
+      -2.430000066757202,
+      -2.430000066757202,
+      0.07500000298023224
+    ],
+    "max": [
+      59.93813705444336,
+      87.09396362304688,
+      0.5149999856948853
+    ]
+  },
+  "Recycling crane, maker yard and sky garden": {
+    "triangles": 1192,
+    "uv_complete": true,
+    "zero_area_faces": 0,
+    "min": [
+      -87.4000015258789,
+      -94.0,
+      0.0
+    ],
+    "max": [
+      92.0,
+      55.599998474121094,
+      10.600000381469727
+    ]
+  },
+  "Distant foothills and clustered horizon groves": {
+    "triangles": 4758,
+    "uv_complete": true,
+    "zero_area_faces": 0,
+    "min": [
+      -241.26527404785156,
+      -238.1057586669922,
+      0.05999999865889549
+    ],
+    "max": [
+      234.73472595214844,
+      238.45970153808594,
+      32.183128356933594
+    ]
+  }
+}

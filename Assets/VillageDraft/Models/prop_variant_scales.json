@@ -1,0 +1,307 @@
+{
+  "market_wooden_cart": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "pool_towel_cart": [
+    0.7,
+    0.7,
+    1.3
+  ],
+  "post_parcel_trolley": [
+    1.3,
+    0.7,
+    1.3
+  ],
+  "clinic_first_aid_cart": [
+    0.7,
+    1.3,
+    0.7
+  ],
+  "library_book_return_cart": [
+    1.0,
+    0.7,
+    0.7
+  ],
+  "garage_service_trolley": [
+    1.3,
+    0.84,
+    0.7
+  ],
+  "art_paint_trolley": [
+    0.84,
+    1.3,
+    1.3
+  ],
+  "recycling_collection_cart": [
+    1.3,
+    1.3,
+    0.84
+  ],
+  "cafe_cafe_counter": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "workshop_workbench": [
+    0.7,
+    0.7,
+    1.3
+  ],
+  "greenhouse_planting_bench": [
+    1.3,
+    0.7,
+    0.7
+  ],
+  "bakery_dough_counter": [
+    0.7,
+    1.0,
+    0.7
+  ],
+  "post_sorting_counter": [
+    1.3,
+    0.84,
+    1.16
+  ],
+  "garage_mechanic_bench": [
+    1.0,
+    1.3,
+    0.7
+  ],
+  "cafe_cafe_table": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "post_wrapping_station": [
+    0.7,
+    0.7,
+    1.3
+  ],
+  "clinic_clinic_desk": [
+    1.3,
+    1.16,
+    1.3
+  ],
+  "library_reading_desk": [
+    0.84,
+    1.16,
+    1.0
+  ],
+  "observatory_star_chart_desk": [
+    1.3,
+    1.3,
+    0.7
+  ],
+  "art_palette_table": [
+    1.0,
+    0.7,
+    0.7
+  ],
+  "greenhouse_seed_cabinet": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "post_mail_slots": [
+    0.7,
+    0.7,
+    0.7
+  ],
+  "clinic_medicine_cabinet": [
+    1.3,
+    0.7,
+    0.7
+  ],
+  "library_bookcase": [
+    1.3,
+    0.7,
+    1.3
+  ],
+  "observatory_lens_cabinet": [
+    0.7,
+    1.16,
+    1.3
+  ],
+  "clinic_treatment_lamp": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "library_reading_lamp": [
+    0.7,
+    0.7,
+    0.7
+  ],
+  "music_stage_spotlight": [
+    1.3,
+    1.3,
+    1.3
+  ],
+  "observatory_tripod_beacon": [
+    0.7,
+    1.16,
+    1.3
+  ],
+  "harbor_dock_lantern": [
+    0.84,
+    0.7,
+    0.84
+  ],
+  "workshop_tool_rack": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "bakery_rolling_rack": [
+    0.7,
+    0.7,
+    0.7
+  ],
+  "garage_tire_rack": [
+    1.3,
+    1.3,
+    0.7
+  ],
+  "art_brush_rack": [
+    1.3,
+    0.7,
+    1.3
+  ],
+  "market_checkout_register": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "cafe_espresso_machine": [
+    0.7,
+    0.7,
+    0.7
+  ],
+  "workshop_power_console": [
+    1.3,
+    0.7,
+    1.3
+  ],
+  "market_fruit_scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "post_letter_scale": [
+    0.7,
+    1.3,
+    0.7
+  ],
+  "recycling_recycle_scale": [
+    1.3,
+    1.3,
+    1.3
+  ],
+  "workshop_toolbox": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "harbor_fish_crate": [
+    0.7,
+    0.7,
+    1.3
+  ],
+  "recycling_glass_crate": [
+    1.3,
+    0.7,
+    1.3
+  ],
+  "greenhouse_compost_barrel": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "bakery_flour_barrel": [
+    0.7,
+    0.7,
+    1.3
+  ],
+  "harbor_harbor_barrel": [
+    1.3,
+    1.3,
+    1.3
+  ],
+  "library_story_podium": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "observatory_observation_podium": [
+    0.7,
+    0.7,
+    1.3
+  ],
+  "art_sculpture_plinth": [
+    1.3,
+    1.3,
+    1.3
+  ],
+  "market_produce_stand": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "bakery_pastry_display": [
+    0.7,
+    0.7,
+    0.7
+  ],
+  "market_wicker_basket": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "bakery_baguette_basket": [
+    0.7,
+    0.7,
+    1.3
+  ],
+  "cafe_serving_tray": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "clinic_medical_tray": [
+    0.7,
+    0.7,
+    1.3
+  ],
+  "greenhouse_water_pump": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "garage_fuel_pump": [
+    0.7,
+    0.7,
+    1.3
+  ],
+  "pool_ring_target": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "harbor_life_buoy": [
+    1.3,
+    1.3,
+    0.7
+  ],
+  "post_stamp_press": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "recycling_bottle_crusher": [
+    1.3,
+    1.3,
+    1.3
+  ]
+}

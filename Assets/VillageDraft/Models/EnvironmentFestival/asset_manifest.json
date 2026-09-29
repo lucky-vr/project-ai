@@ -1,0 +1,185 @@
+{
+  "provenance": "AI-assisted Blender environment reference; disclose as AI-generated in coursework.",
+  "source_blend": "Source/festival_environment.blend",
+  "fbx": {
+    "base_ground": {
+      "path": "FBX/base_ground.fbx",
+      "triangles": 6272,
+      "materials": [
+        "grass"
+      ],
+      "source_objects": 1
+    },
+    "district_ground": {
+      "path": "FBX/district_ground.fbx",
+      "triangles": 192,
+      "materials": [
+        "drygrass",
+        "meadow",
+        "sand",
+        "gravel"
+      ],
+      "source_objects": 1
+    },
+    "paths": {
+      "path": "FBX/paths.fbx",
+      "triangles": 202,
+      "materials": [
+        "stone",
+        "terracotta",
+        "sand",
+        "bluestone",
+        "plank"
+      ],
+      "source_objects": 1
+    },
+    "civic": {
+      "path": "FBX/civic.fbx",
+      "triangles": 3036,
+      "materials": [
+        "stone",
+        "terracotta",
+        "ivory",
+        "teal",
+        "bronze",
+        "metal",
+        "plank",
+        "timber",
+        "coral",
+        "navy",
+        "gold",
+        "gravel",
+        "leaf",
+        "flower"
+      ],
+      "source_objects": 1
+    },
+    "garden_arts": {
+      "path": "FBX/garden_arts.fbx",
+      "triangles": 2300,
+      "materials": [
+        "timber",
+        "gravel",
+        "leaf",
+        "flower",
+        "plank",
+        "stone",
+        "bronze",
+        "gold",
+        "coral",
+        "teal",
+        "ivory"
+      ],
+      "source_objects": 1
+    },
+    "waterfront": {
+      "path": "FBX/waterfront.fbx",
+      "triangles": 1730,
+      "materials": [
+        "sand",
+        "plank",
+        "timber",
+        "ivory",
+        "metal",
+        "coral",
+        "gold",
+        "teal"
+      ],
+      "source_objects": 1
+    },
+    "water": {
+      "path": "FBX/water.fbx",
+      "triangles": 80,
+      "materials": [
+        "water"
+      ],
+      "source_objects": 1
+    },
+    "maker_sky": {
+      "path": "FBX/maker_sky.fbx",
+      "triangles": 1192,
+      "materials": [
+        "metal",
+        "gold",
+        "bluestone",
+        "gravel",
+        "leaf",
+        "terracotta",
+        "ivory",
+        "navy",
+        "bronze"
+      ],
+      "source_objects": 1
+    },
+    "perimeter": {
+      "path": "FBX/perimeter.fbx",
+      "triangles": 7854,
+      "materials": [
+        "grass",
+        "ridge_sage",
+        "ridge_ochre",
+        "ridge_bark",
+        "ridge_leaf",
+        "ridge_pine"
+      ],
+      "source_objects": 1
+    },
+    "market_wayfinding": {
+      "path": "FBX/market_wayfinding.fbx",
+      "triangles": 1054,
+      "materials": [
+        "timber",
+        "gold",
+        "coral",
+        "leaf",
+        "navy",
+        "ivory"
+      ],
+      "source_objects": 1
+    }
+  },
+  "market_wayfinding": {
+    "roof_pennant_world": [
+      -29,
+      18,
+      10.26
+    ],
+    "trailpost_world": [
+      5.42,
+      -10,
+      2.06
+    ],
+    "inlaid_marker_world_xz": [
+      [
+        0,
+        -24
+      ],
+      [
+        -2,
+        -17
+      ],
+      [
+        -4,
+        -8
+      ],
+      [
+        -6,
+        4
+      ],
+      [
+        -12,
+        9
+      ],
+      [
+        -18,
+        12
+      ],
+      [
+        -21.8,
+        13.5
+      ]
+    ],
+    "colliders": 0
+  },
+  "axis": "Blender Z-up; project FBX -Z forward/Y up; Unity builder uses project model placement basis."
+}

@@ -1,0 +1,752 @@
+{
+  "method": "Mean binary front/top Jaccard IoU, excluding common floor platform",
+  "target_max_mean_iou": 0.6,
+  "venue_count": 15,
+  "pair_count": 105,
+  "pairs_above_target": 0,
+  "mean_pair_iou": 0.3611,
+  "worst_pair": {
+    "first": "harbor",
+    "second": "market",
+    "front_iou": 0.37,
+    "top_iou": 0.8237,
+    "mean_iou": 0.5968
+  },
+  "pairs": [
+    {
+      "first": "harbor",
+      "second": "market",
+      "front_iou": 0.37,
+      "top_iou": 0.8237,
+      "mean_iou": 0.5968
+    },
+    {
+      "first": "bakery",
+      "second": "garage",
+      "front_iou": 0.4993,
+      "top_iou": 0.6563,
+      "mean_iou": 0.5778
+    },
+    {
+      "first": "garage",
+      "second": "workshop",
+      "front_iou": 0.4576,
+      "top_iou": 0.6756,
+      "mean_iou": 0.5666
+    },
+    {
+      "first": "clinic",
+      "second": "garage",
+      "front_iou": 0.5613,
+      "top_iou": 0.5681,
+      "mean_iou": 0.5647
+    },
+    {
+      "first": "bakery",
+      "second": "cafe",
+      "front_iou": 0.4453,
+      "top_iou": 0.6454,
+      "mean_iou": 0.5454
+    },
+    {
+      "first": "cafe",
+      "second": "clinic",
+      "front_iou": 0.4898,
+      "top_iou": 0.5972,
+      "mean_iou": 0.5435
+    },
+    {
+      "first": "bakery",
+      "second": "post",
+      "front_iou": 0.5353,
+      "top_iou": 0.5392,
+      "mean_iou": 0.5373
+    },
+    {
+      "first": "cafe",
+      "second": "garage",
+      "front_iou": 0.5442,
+      "top_iou": 0.5123,
+      "mean_iou": 0.5282
+    },
+    {
+      "first": "bakery",
+      "second": "workshop",
+      "front_iou": 0.5222,
+      "top_iou": 0.5335,
+      "mean_iou": 0.5278
+    },
+    {
+      "first": "bakery",
+      "second": "library",
+      "front_iou": 0.5567,
+      "top_iou": 0.4932,
+      "mean_iou": 0.525
+    },
+    {
+      "first": "clinic",
+      "second": "workshop",
+      "front_iou": 0.4148,
+      "top_iou": 0.6104,
+      "mean_iou": 0.5126
+    },
+    {
+      "first": "art",
+      "second": "library",
+      "front_iou": 0.5217,
+      "top_iou": 0.4726,
+      "mean_iou": 0.4972
+    },
+    {
+      "first": "library",
+      "second": "workshop",
+      "front_iou": 0.413,
+      "top_iou": 0.5698,
+      "mean_iou": 0.4914
+    },
+    {
+      "first": "cafe",
+      "second": "library",
+      "front_iou": 0.4267,
+      "top_iou": 0.5502,
+      "mean_iou": 0.4885
+    },
+    {
+      "first": "library",
+      "second": "post",
+      "front_iou": 0.643,
+      "top_iou": 0.3181,
+      "mean_iou": 0.4806
+    },
+    {
+      "first": "garage",
+      "second": "library",
+      "front_iou": 0.4494,
+      "top_iou": 0.5085,
+      "mean_iou": 0.479
+    },
+    {
+      "first": "art",
+      "second": "recycling",
+      "front_iou": 0.6087,
+      "top_iou": 0.3481,
+      "mean_iou": 0.4784
+    },
+    {
+      "first": "bakery",
+      "second": "market",
+      "front_iou": 0.2899,
+      "top_iou": 0.6501,
+      "mean_iou": 0.47
+    },
+    {
+      "first": "clinic",
+      "second": "library",
+      "front_iou": 0.3832,
+      "top_iou": 0.5559,
+      "mean_iou": 0.4696
+    },
+    {
+      "first": "cafe",
+      "second": "post",
+      "front_iou": 0.4777,
+      "top_iou": 0.4607,
+      "mean_iou": 0.4692
+    },
+    {
+      "first": "clinic",
+      "second": "recycling",
+      "front_iou": 0.4445,
+      "top_iou": 0.4909,
+      "mean_iou": 0.4677
+    },
+    {
+      "first": "cafe",
+      "second": "workshop",
+      "front_iou": 0.4208,
+      "top_iou": 0.5091,
+      "mean_iou": 0.4649
+    },
+    {
+      "first": "music",
+      "second": "recycling",
+      "front_iou": 0.3597,
+      "top_iou": 0.5506,
+      "mean_iou": 0.4551
+    },
+    {
+      "first": "bakery",
+      "second": "greenhouse",
+      "front_iou": 0.0982,
+      "top_iou": 0.8113,
+      "mean_iou": 0.4547
+    },
+    {
+      "first": "bakery",
+      "second": "clinic",
+      "front_iou": 0.3612,
+      "top_iou": 0.5424,
+      "mean_iou": 0.4518
+    },
+    {
+      "first": "library",
+      "second": "recycling",
+      "front_iou": 0.4702,
+      "top_iou": 0.4244,
+      "mean_iou": 0.4473
+    },
+    {
+      "first": "greenhouse",
+      "second": "market",
+      "front_iou": 0.1335,
+      "top_iou": 0.7593,
+      "mean_iou": 0.4464
+    },
+    {
+      "first": "recycling",
+      "second": "workshop",
+      "front_iou": 0.5237,
+      "top_iou": 0.3663,
+      "mean_iou": 0.445
+    },
+    {
+      "first": "bakery",
+      "second": "harbor",
+      "front_iou": 0.2542,
+      "top_iou": 0.6091,
+      "mean_iou": 0.4317
+    },
+    {
+      "first": "pool",
+      "second": "recycling",
+      "front_iou": 0.6165,
+      "top_iou": 0.237,
+      "mean_iou": 0.4267
+    },
+    {
+      "first": "art",
+      "second": "pool",
+      "front_iou": 0.6358,
+      "top_iou": 0.2171,
+      "mean_iou": 0.4264
+    },
+    {
+      "first": "greenhouse",
+      "second": "harbor",
+      "front_iou": 0.115,
+      "top_iou": 0.7258,
+      "mean_iou": 0.4204
+    },
+    {
+      "first": "art",
+      "second": "workshop",
+      "front_iou": 0.5187,
+      "top_iou": 0.3215,
+      "mean_iou": 0.4201
+    },
+    {
+      "first": "art",
+      "second": "cafe",
+      "front_iou": 0.4411,
+      "top_iou": 0.3964,
+      "mean_iou": 0.4188
+    },
+    {
+      "first": "clinic",
+      "second": "greenhouse",
+      "front_iou": 0.1486,
+      "top_iou": 0.6852,
+      "mean_iou": 0.4169
+    },
+    {
+      "first": "cafe",
+      "second": "recycling",
+      "front_iou": 0.365,
+      "top_iou": 0.4578,
+      "mean_iou": 0.4114
+    },
+    {
+      "first": "garage",
+      "second": "post",
+      "front_iou": 0.4415,
+      "top_iou": 0.3748,
+      "mean_iou": 0.4082
+    },
+    {
+      "first": "cafe",
+      "second": "greenhouse",
+      "front_iou": 0.0837,
+      "top_iou": 0.7309,
+      "mean_iou": 0.4073
+    },
+    {
+      "first": "cafe",
+      "second": "market",
+      "front_iou": 0.2413,
+      "top_iou": 0.5619,
+      "mean_iou": 0.4016
+    },
+    {
+      "first": "garage",
+      "second": "recycling",
+      "front_iou": 0.4898,
+      "top_iou": 0.3093,
+      "mean_iou": 0.3996
+    },
+    {
+      "first": "bakery",
+      "second": "recycling",
+      "front_iou": 0.4875,
+      "top_iou": 0.3043,
+      "mean_iou": 0.3959
+    },
+    {
+      "first": "harbor",
+      "second": "music",
+      "front_iou": 0.3636,
+      "top_iou": 0.4109,
+      "mean_iou": 0.3873
+    },
+    {
+      "first": "post",
+      "second": "workshop",
+      "front_iou": 0.4264,
+      "top_iou": 0.3468,
+      "mean_iou": 0.3866
+    },
+    {
+      "first": "art",
+      "second": "bakery",
+      "front_iou": 0.4511,
+      "top_iou": 0.3199,
+      "mean_iou": 0.3855
+    },
+    {
+      "first": "market",
+      "second": "music",
+      "front_iou": 0.4131,
+      "top_iou": 0.353,
+      "mean_iou": 0.3831
+    },
+    {
+      "first": "library",
+      "second": "market",
+      "front_iou": 0.2581,
+      "top_iou": 0.4956,
+      "mean_iou": 0.3769
+    },
+    {
+      "first": "harbor",
+      "second": "library",
+      "front_iou": 0.2293,
+      "top_iou": 0.5141,
+      "mean_iou": 0.3717
+    },
+    {
+      "first": "garage",
+      "second": "greenhouse",
+      "front_iou": 0.1012,
+      "top_iou": 0.6414,
+      "mean_iou": 0.3713
+    },
+    {
+      "first": "art",
+      "second": "market",
+      "front_iou": 0.275,
+      "top_iou": 0.4564,
+      "mean_iou": 0.3657
+    },
+    {
+      "first": "library",
+      "second": "music",
+      "front_iou": 0.2632,
+      "top_iou": 0.4619,
+      "mean_iou": 0.3626
+    },
+    {
+      "first": "clinic",
+      "second": "post",
+      "front_iou": 0.3822,
+      "top_iou": 0.3342,
+      "mean_iou": 0.3582
+    },
+    {
+      "first": "art",
+      "second": "garage",
+      "front_iou": 0.4478,
+      "top_iou": 0.2685,
+      "mean_iou": 0.3581
+    },
+    {
+      "first": "garage",
+      "second": "harbor",
+      "front_iou": 0.2146,
+      "top_iou": 0.4971,
+      "mean_iou": 0.3559
+    },
+    {
+      "first": "cafe",
+      "second": "harbor",
+      "front_iou": 0.1887,
+      "top_iou": 0.518,
+      "mean_iou": 0.3533
+    },
+    {
+      "first": "greenhouse",
+      "second": "library",
+      "front_iou": 0.1383,
+      "top_iou": 0.5632,
+      "mean_iou": 0.3508
+    },
+    {
+      "first": "art",
+      "second": "harbor",
+      "front_iou": 0.2301,
+      "top_iou": 0.471,
+      "mean_iou": 0.3506
+    },
+    {
+      "first": "clinic",
+      "second": "harbor",
+      "front_iou": 0.1996,
+      "top_iou": 0.499,
+      "mean_iou": 0.3493
+    },
+    {
+      "first": "art",
+      "second": "post",
+      "front_iou": 0.3943,
+      "top_iou": 0.3024,
+      "mean_iou": 0.3484
+    },
+    {
+      "first": "art",
+      "second": "music",
+      "front_iou": 0.2776,
+      "top_iou": 0.4189,
+      "mean_iou": 0.3483
+    },
+    {
+      "first": "garage",
+      "second": "market",
+      "front_iou": 0.1724,
+      "top_iou": 0.5139,
+      "mean_iou": 0.3431
+    },
+    {
+      "first": "clinic",
+      "second": "market",
+      "front_iou": 0.1341,
+      "top_iou": 0.5482,
+      "mean_iou": 0.3411
+    },
+    {
+      "first": "art",
+      "second": "clinic",
+      "front_iou": 0.3951,
+      "top_iou": 0.2805,
+      "mean_iou": 0.3378
+    },
+    {
+      "first": "greenhouse",
+      "second": "post",
+      "front_iou": 0.1016,
+      "top_iou": 0.5715,
+      "mean_iou": 0.3366
+    },
+    {
+      "first": "harbor",
+      "second": "post",
+      "front_iou": 0.2076,
+      "top_iou": 0.4489,
+      "mean_iou": 0.3283
+    },
+    {
+      "first": "greenhouse",
+      "second": "workshop",
+      "front_iou": 0.095,
+      "top_iou": 0.5608,
+      "mean_iou": 0.3279
+    },
+    {
+      "first": "clinic",
+      "second": "observatory",
+      "front_iou": 0.169,
+      "top_iou": 0.4832,
+      "mean_iou": 0.3261
+    },
+    {
+      "first": "cafe",
+      "second": "music",
+      "front_iou": 0.2387,
+      "top_iou": 0.4076,
+      "mean_iou": 0.3231
+    },
+    {
+      "first": "market",
+      "second": "post",
+      "front_iou": 0.2059,
+      "top_iou": 0.4402,
+      "mean_iou": 0.323
+    },
+    {
+      "first": "bakery",
+      "second": "music",
+      "front_iou": 0.3175,
+      "top_iou": 0.3201,
+      "mean_iou": 0.3188
+    },
+    {
+      "first": "harbor",
+      "second": "workshop",
+      "front_iou": 0.2037,
+      "top_iou": 0.4286,
+      "mean_iou": 0.3161
+    },
+    {
+      "first": "pool",
+      "second": "workshop",
+      "front_iou": 0.4495,
+      "top_iou": 0.1752,
+      "mean_iou": 0.3123
+    },
+    {
+      "first": "market",
+      "second": "recycling",
+      "front_iou": 0.2184,
+      "top_iou": 0.4025,
+      "mean_iou": 0.3104
+    },
+    {
+      "first": "market",
+      "second": "workshop",
+      "front_iou": 0.1639,
+      "top_iou": 0.4553,
+      "mean_iou": 0.3096
+    },
+    {
+      "first": "post",
+      "second": "recycling",
+      "front_iou": 0.3903,
+      "top_iou": 0.2083,
+      "mean_iou": 0.2993
+    },
+    {
+      "first": "clinic",
+      "second": "music",
+      "front_iou": 0.2394,
+      "top_iou": 0.3467,
+      "mean_iou": 0.293
+    },
+    {
+      "first": "bakery",
+      "second": "observatory",
+      "front_iou": 0.2745,
+      "top_iou": 0.3007,
+      "mean_iou": 0.2876
+    },
+    {
+      "first": "greenhouse",
+      "second": "music",
+      "front_iou": 0.2003,
+      "top_iou": 0.3737,
+      "mean_iou": 0.287
+    },
+    {
+      "first": "music",
+      "second": "workshop",
+      "front_iou": 0.2637,
+      "top_iou": 0.3014,
+      "mean_iou": 0.2825
+    },
+    {
+      "first": "harbor",
+      "second": "recycling",
+      "front_iou": 0.2447,
+      "top_iou": 0.3187,
+      "mean_iou": 0.2817
+    },
+    {
+      "first": "art",
+      "second": "greenhouse",
+      "front_iou": 0.1512,
+      "top_iou": 0.4106,
+      "mean_iou": 0.2809
+    },
+    {
+      "first": "clinic",
+      "second": "pool",
+      "front_iou": 0.4159,
+      "top_iou": 0.1425,
+      "mean_iou": 0.2792
+    },
+    {
+      "first": "garage",
+      "second": "music",
+      "front_iou": 0.2642,
+      "top_iou": 0.294,
+      "mean_iou": 0.2791
+    },
+    {
+      "first": "music",
+      "second": "observatory",
+      "front_iou": 0.2733,
+      "top_iou": 0.2776,
+      "mean_iou": 0.2754
+    },
+    {
+      "first": "observatory",
+      "second": "recycling",
+      "front_iou": 0.1921,
+      "top_iou": 0.3585,
+      "mean_iou": 0.2753
+    },
+    {
+      "first": "market",
+      "second": "observatory",
+      "front_iou": 0.254,
+      "top_iou": 0.292,
+      "mean_iou": 0.273
+    },
+    {
+      "first": "garage",
+      "second": "pool",
+      "front_iou": 0.4491,
+      "top_iou": 0.0867,
+      "mean_iou": 0.2679
+    },
+    {
+      "first": "cafe",
+      "second": "observatory",
+      "front_iou": 0.1674,
+      "top_iou": 0.3528,
+      "mean_iou": 0.2601
+    },
+    {
+      "first": "library",
+      "second": "pool",
+      "front_iou": 0.3553,
+      "top_iou": 0.149,
+      "mean_iou": 0.2522
+    },
+    {
+      "first": "greenhouse",
+      "second": "recycling",
+      "front_iou": 0.1361,
+      "top_iou": 0.3601,
+      "mean_iou": 0.2481
+    },
+    {
+      "first": "music",
+      "second": "post",
+      "front_iou": 0.2255,
+      "top_iou": 0.2704,
+      "mean_iou": 0.2479
+    },
+    {
+      "first": "garage",
+      "second": "observatory",
+      "front_iou": 0.2117,
+      "top_iou": 0.2835,
+      "mean_iou": 0.2476
+    },
+    {
+      "first": "cafe",
+      "second": "pool",
+      "front_iou": 0.3667,
+      "top_iou": 0.1166,
+      "mean_iou": 0.2417
+    },
+    {
+      "first": "harbor",
+      "second": "observatory",
+      "front_iou": 0.1838,
+      "top_iou": 0.2734,
+      "mean_iou": 0.2286
+    },
+    {
+      "first": "greenhouse",
+      "second": "observatory",
+      "front_iou": 0.0784,
+      "top_iou": 0.3544,
+      "mean_iou": 0.2164
+    },
+    {
+      "first": "library",
+      "second": "observatory",
+      "front_iou": 0.1925,
+      "top_iou": 0.2236,
+      "mean_iou": 0.2081
+    },
+    {
+      "first": "bakery",
+      "second": "pool",
+      "front_iou": 0.3246,
+      "top_iou": 0.0799,
+      "mean_iou": 0.2022
+    },
+    {
+      "first": "observatory",
+      "second": "post",
+      "front_iou": 0.1766,
+      "top_iou": 0.2271,
+      "mean_iou": 0.2018
+    },
+    {
+      "first": "observatory",
+      "second": "workshop",
+      "front_iou": 0.1689,
+      "top_iou": 0.2172,
+      "mean_iou": 0.193
+    },
+    {
+      "first": "music",
+      "second": "pool",
+      "front_iou": 0.2302,
+      "top_iou": 0.1482,
+      "mean_iou": 0.1892
+    },
+    {
+      "first": "pool",
+      "second": "post",
+      "front_iou": 0.3305,
+      "top_iou": 0.0452,
+      "mean_iou": 0.1878
+    },
+    {
+      "first": "art",
+      "second": "observatory",
+      "front_iou": 0.1754,
+      "top_iou": 0.178,
+      "mean_iou": 0.1767
+    },
+    {
+      "first": "market",
+      "second": "pool",
+      "front_iou": 0.108,
+      "top_iou": 0.1729,
+      "mean_iou": 0.1405
+    },
+    {
+      "first": "harbor",
+      "second": "pool",
+      "front_iou": 0.1233,
+      "top_iou": 0.1427,
+      "mean_iou": 0.133
+    },
+    {
+      "first": "greenhouse",
+      "second": "pool",
+      "front_iou": 0.1384,
+      "top_iou": 0.0953,
+      "mean_iou": 0.1169
+    },
+    {
+      "first": "observatory",
+      "second": "pool",
+      "front_iou": 0.1199,
+      "top_iou": 0.029,
+      "mean_iou": 0.0744
+    }
+  ]
+}
